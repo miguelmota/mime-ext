@@ -6,7 +6,7 @@ const normalize = require('./normalize');
 
 getMimeTypes()
 .then(data => {
-  fs.writeFileSync(path.resolve(__dirname, 'mime_types.txt'), data);
+  fs.writeFileSync(path.resolve(__dirname, 'data/mime_types.txt'), data);
   return Promise.resolve(data);
 })
 .then(data => {
@@ -14,7 +14,7 @@ getMimeTypes()
   return Promise.resolve(table);
 })
 .then(table => {
-  fs.writeFileSync(path.resolve(__dirname, 'mime_ext.json'), JSON.stringify(table, null, 2));
+  fs.writeFileSync(path.resolve(__dirname, 'data/mime_ext.json'), JSON.stringify(table, null, 2));
   return Promise.resolve();
 })
 .catch(error => {

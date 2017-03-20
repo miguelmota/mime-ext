@@ -2,11 +2,13 @@
 
 > filename extensions for mime type
 
-## Usage
+## Install
 
 ```bash
 npm install mime-ext
 ```
+
+## Usage
 
 ```javascript
 const mimeExt = require('mime-ext');
@@ -25,6 +27,6 @@ console.log(mimeExt('none-existent')); // []
 npm test
 ```
 
-## License
+# License
 
 MIT
