@@ -27,6 +27,8 @@ console.log(mimeExt('none-existent')); // []
 npm test
 ```
 
+Use [`ext-mime`](https://github.com/miguelmota/ext-mime) for finding mime types for filename extension.
+
 # License
 
 MIT
