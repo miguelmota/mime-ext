@@ -1,6 +1,6 @@
 {
   "name": "mime-ext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "filename extensions for mime type",
   "main": "index.js",
   "scripts": {

@@ -18,7 +18,6 @@ console.log(mimeExt('image/jpeg')); // ['jpg', 'jpeg', 'jpe']
 console.log(mimeExt('application/javascript')); // ['js']
 console.log(mimeExt('application/vnd.ms-excel')); // ['xlw', 'xlt', 'xls', 'xlm', 'xlc', 'xla']
 console.log(mimeExt('none-existent')); // []
-
 ```
 
 ## Test
