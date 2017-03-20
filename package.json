@@ -1,0 +1,34 @@
+{
+  "name": "mime-ext",
+  "version": "0.0.1",
+  "description": "filename extensions for mime type",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape ./test/*.js",
+    "build-json": "node ./src/buildJson.js"
+  },
+  "bin": {
+    "mime-ext": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/mime-ext"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/mime-ext/issues"
+  },
+  "homepage": "https://github.com/miguelmota/mime-ext",
+  "keywords": [
+    "mime",
+    "type",
+    "extension",
+    "filename"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
